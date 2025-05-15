@@ -15,3 +15,23 @@ All code should be readable by a human ⚠️ Rust allows shadowing and reusing 
 
 ### Clippy cmd
 cargo clippy -- -W clippy::all -W clippy::pedantic -W clippy::nursery
+
+### Plan 
+
+[ Boot / Init ]
+    └─ Init peripherals
+    └─ Register tasks
+    └─ Start system tick
+
+[ RTOS Core ]
+    └─ Task list
+    └─ Scheduler
+    └─ Timer / delay utils
+    └─ Interrupt support
+
+[ Tasks ]
+    ├─ Sensor read
+    ├─ Control logic (PID)
+    ├─ Motor output
+    ├─ RX decode
+    └─ Optional: telemetry, logging
