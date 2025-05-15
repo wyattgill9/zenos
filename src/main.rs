@@ -1,4 +1,2 @@
 #![no_std]
-
-fn main() {
-}
+#![no_main]
