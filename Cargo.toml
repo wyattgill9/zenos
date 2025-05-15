@@ -4,7 +4,7 @@ name = "zenos"
 version = "0.1.0"
 edition = "2024"
 
-[bin]
+[[bin]]
 name = "zenos"
 test = false
 bench = false
